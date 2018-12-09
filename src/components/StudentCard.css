@@ -1,0 +1,86 @@
+.student-card {
+    overflow-y: scroll; 
+    width: 800px;
+    height: 600px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.container {
+    width: 800px;
+    
+    display:flex;
+    flex-direction:row;
+
+}
+
+.item{
+
+    border-bottom:1px solid #bbbbbb;
+    
+}
+
+
+.container div:nth-of-type(1){
+    width: 20%;
+
+} 
+
+.container div:nth-of-type(2){
+    color: #888888;
+    width: 75%;
+}
+
+.container div:nth-of-type(3){
+    width: 5%;
+    
+}
+
+
+
+
+ul {
+    margin: 3px;
+}
+
+.name {
+    color: black;
+    margin:3px;
+    font-size:1.6em;
+    font-weight: 700;
+}
+
+
+figure{
+    display:block;
+    width:120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-left : 15px;
+}
+
+
+figure img{
+   display:inline-block;
+   width: 120px;
+   height: 120px;
+   border: 1px solid #888888;
+   border-radius: 50%;
+  
+}
+
+
+.plus_minus {
+    margin-top:0px;
+    text-align: center;
+    font-size:3em;
+    font-weight: 700;
+    color: #888888;
+}
+
+.plus_minus:hover {
+    color: black;
+}
